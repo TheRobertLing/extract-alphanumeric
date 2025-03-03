@@ -1,4 +1,4 @@
-import { extract, Options } from "../index";
+import { extract, Options } from "../src/index";
 
 type TestInput = {
   input: string;
