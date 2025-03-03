@@ -1,11 +1,11 @@
 import { extract, Options } from "../index";
 
-type Test = [name: string, input: TestInput, expected: string];
-
 type TestInput = {
   input: string;
   options?: Options;
 };
+
+type Test = [name: string, input: TestInput, expected: string];
 
 const cases: Test[] = [
   [
