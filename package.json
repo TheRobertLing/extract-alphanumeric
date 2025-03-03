@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/TheRobertLing/extract-alphanumeric/issues"
   },
-  "homepage": "https://github.com/TheRobertLing/extract-alphanumeric#readme"
+  "homepage": "https://github.com/TheRobertLing/extract-alphanumeric#readme",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
