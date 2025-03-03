@@ -27,7 +27,6 @@ const createRegex = (
   };
 };
 
-
 const extract = (
   input: string,
   {
@@ -38,3 +37,5 @@ const extract = (
   const { whitelist, blacklist } = createRegex(include, exclude);
   return input.replace(whitelist, "").replace(blacklist, "");
 };
+
+export { extract };
