@@ -1,0 +1,27 @@
+{
+  "name": "extract-alphanumeric",
+  "version": "1.0.0",
+  "description": "simple tool to extract alphanumeric characters from a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobertLing/extract-alphanumeric.git"
+  },
+  "keywords": [
+    "alphanumeric",
+    "text-filter",
+    "string-processing",
+    "processing",
+    "extract",
+    "text"
+  ],
+  "author": "Robert Ling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRobertLing/extract-alphanumeric/issues"
+  },
+  "homepage": "https://github.com/TheRobertLing/extract-alphanumeric#readme"
+}
