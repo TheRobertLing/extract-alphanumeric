@@ -38,4 +38,4 @@ const extract = (
   return input.replace(whitelist, "").replace(blacklist, "");
 };
 
-export { extract };
+export { extract, Options };
