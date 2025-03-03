@@ -5,10 +5,12 @@
     "declaration": true,
     "declarationMap": true,
     "declarationDir": "./types",
+    "rootDir": "./src",
     "allowJs": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": true
   },
+  "include": ["src"],
   "exclude": ["node_modules", "cjs", "esm"]
 }

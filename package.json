@@ -2,8 +2,21 @@
   "name": "extract-alphanumeric",
   "version": "1.0.0",
   "description": "simple tool to extract alphanumeric characters from a string",
-  "main": "index.js",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    "import": "./esm/index.js",
+    "require": "./cjs/index.js"
+  },
+  "files": [
+    "cjs/",
+    "esm/",
+    "types/"
+  ],
   "scripts": {
+    "build": "tsc --project tsconfig.cjs.json && tsc --project tsconfig.esm.json",
+    "prepublishOnly": "npm run build",
     "test": "jest --coverage"
   },
   "repository": {
