@@ -52,7 +52,7 @@ console.log(extract("Hello Everyone"));
 console.log(extract("I'll have two number 9s, and a large soda.", { include: "'. " })); 
 // Output: "I'll have two number 9s and a large soda." -> Missing comma
 
-console.log(extract("I'll have two number 9s, and a large soda.", { exclude: "123456789" })); 
+console.log(extract("I'll have two number 9s, and a large soda.", { include: " ", exclude: "123456789" })); 
 // Output: "Ill have two number s and a large soda" -> other numbers ignored, punctuation all removed
 
 console.log(extract("some input", { include: "some input", exclude: "some input" })); 
