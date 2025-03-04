@@ -1,6 +1,6 @@
 {
   "name": "extract-alphanumeric",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple tool to extract alphanumeric characters from a string",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
